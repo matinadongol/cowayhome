@@ -1,0 +1,58 @@
+#air-purifier-desktop-carousel{
+    display: block;
+}
+
+#air-purifier-specs-owl-carousel{
+    display: none;
+}
+
+.air-purifier-desktop-carousel{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2%;
+}
+
+.air-purifier-desktop-carousel-a{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin: 30px;
+}
+
+.air-purifier-desktop-carousel-b{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin: 30px;
+}
+
+.air-purifier-desktop-carousel-c{
+    grid-row: 1/2;
+    grid-column: 3/-1;
+    margin: 30px;
+}
+
+.air-purifier-desktop-carousel-d{
+    grid-row: 2/-1;
+    grid-column: 1/2;
+    margin: 30px;
+}
+
+.air-purifier-desktop-carousel-e{
+    grid-row: 2/-1;
+    grid-column: 2/3;
+    margin: 30px;
+}
+
+.air-purifier-desktop-carousel-f{
+    grid-row: 2/-1;
+    grid-column: 3/-1;
+    margin: 30px;
+}
+
+/* #air-purifier-specs-owl-carousel .card{
+    height: 400px;
+}
+
+#air-purifier-specs-owl-carousel .card .card-text{
+    padding: 5%;
+} */

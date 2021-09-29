@@ -1,0 +1,188 @@
+/* for mobile devices */
+@media (min-width: 0px) { 
+    .tuba-bg-a {
+        background: url('../img/Banner/Mobile/AirPurifier/Tuba/CWHA047_a2.jpg');
+    }
+    
+    .tuba-bg-b {
+        background: url('../img/Banner/Mobile/AirPurifier/Tuba/CWHA049_a2.jpg');
+        
+    }
+    
+    .tuba-bg-c {
+        background: url('../img/Banner/Mobile/AirPurifier/Tuba/CWHA050_a2.jpg');
+        
+    }
+    
+    .tuba-bg-d {
+        background: url('../img/Banner/Mobile/AirPurifier/Tuba/CWHA051_a2.jpg');
+        
+    }
+    
+    .tuba-bg-e {
+        background: url('../img/Banner/Mobile/AirPurifier/Tuba/CWHA052_b2.jpg');
+        
+    }
+    
+    .tuba-bg-f {
+        background: url('../img/Banner/Mobile/AirPurifier/Tuba/CWHA053_a2.jpg');
+        
+    }
+    
+    .tuba-bg-g {
+        background: url('../img/Banner/Mobile/AirPurifier/Tuba/CWHA054_a2.jpg');
+        
+    }
+    
+    .tuba-bg-h {
+        background: url('../img/Banner/Mobile/AirPurifier/Tuba/CWHA055_a2.jpg');
+        
+    }
+    
+    .tuba-bg-i {
+        background: url('../img/Banner/Mobile/AirPurifier/Tuba/CWHA057_a2.jpg');
+        
+    }
+    
+    .tuba-bg-j {
+        background: url('../img/Banner/Mobile/AirPurifier/Tuba/CWHA057_a2.jpg');
+        
+    }
+    .tuba-bg-k {
+        background: #281d1d;
+        
+    }
+}
+
+/* for desktop devices */
+@media (min-width: 1025px) {
+    .tuba-bg-a {
+        background: url('../img/Banner/Desktop/AirPurifier/Tuba/CWHA047_a1.jpg');
+    }
+    
+    .tuba-bg-b {
+        background: url('../img/Banner/Desktop/AirPurifier/Tuba/CWHA049_a1.jpg');
+        
+    }
+    
+    .tuba-bg-c {
+        background: url('../img/Banner/Desktop/AirPurifier/Tuba/CWHA050_a1.jpg');
+        
+    }
+    
+    .tuba-bg-d {
+        background: url('../img/Banner/Desktop/AirPurifier/Tuba/CWHA051_a1.jpg');
+        
+    }
+    
+    .tuba-bg-e {
+        background: url('../img/Banner/Desktop/AirPurifier/Tuba/CWHA052_b1.jpg');
+        
+    }
+    
+    .tuba-bg-f {
+        background: url('../img/Banner/Desktop/AirPurifier/Tuba/CWHA053_a1.jpg');
+        
+    }
+    
+    .tuba-bg-g {
+        background: url('../img/Banner/Desktop/AirPurifier/Tuba/CWHA054_a1.jpg');
+        
+    }
+    
+    .tuba-bg-h {
+        background: url('../img/Banner/Desktop/AirPurifier/Tuba/CWHA055_a1.jpg');
+        
+    }
+    
+    .tuba-bg-i {
+        background: url('../img/Banner/Desktop/AirPurifier/Tuba/CWHA057_a1.jpg');
+        
+    }
+    
+    .tuba-bg-j {
+        background: url('../img/Banner/Desktop/AirPurifier/Tuba/CWHA057_a1.jpg');
+        
+    }
+    .tuba-bg-k {
+        background: #281d1d;
+        
+    }
+}
+
+
+.tuba-bg-l {
+    background: url('../img/svg/home_background-08.png');
+    
+}
+.ht-light{
+    width: 75% !important;
+}
+.tuba-container-b, .tuba-container-c, .tuba-container-d {
+    padding: 0% 0% 0% 0% !important;
+}
+
+.tuba-b-para {
+    font-size: 20px !important;
+}
+
+.tuba-c-para, .tuba-e-para, .tuba-f-para {
+    font-size: 20px !important;
+    margin-bottom: 5% !important;
+}
+
+.tuba-h1-k,.tuba-para-k,.tuba-span,.tuba-h4 {
+    color: white !important;
+}
+.tuba-h1-d, .tuba-para-d{
+    color: black !important;
+}
+.bg-image{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-img-k{
+    background-color: #EAEAEA;
+    height: 250px;
+
+}
+
+.lombok-card{
+    height: 250px !important;
+    width: 100% !important;
+}
+
+.white-text{
+    color: white !important;
+}
+.content-k{
+    padding: 5%;
+    margin: 5%;
+}
+
+.tuba-card{
+    height: 100% !important;
+    width: 100% !important;
+    padding: 18% 18% 18% 18% !important;
+}
+
+/* .card-text{
+    color: #808080;
+    font-size: medium;
+    padding: 5% 2.5% 5% 2.5%;
+} */
+
+.card-title{
+    font-size: x-large;
+    font-weight: 700;
+    padding: 5% 2.5% 0 2.5%;
+    margin-bottom: 0;
+}
+
+.tuba-specs{
+    height: 30% !important;
+    width: 100% !important;
+}
+
+

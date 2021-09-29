@@ -1,0 +1,111 @@
+.core-bg-a{
+    background: url('../img/Banner/Desktop/WaterPurifier/Core/CWH090_a1.jpg');
+}
+.core-bg-b{
+    background: url('../img/Banner/Desktop/WaterPurifier/Core/CWH092_b1.jpg');
+}
+.core-bg-c{
+    background: url('../img/Banner/Desktop/WaterPurifier/Core/CWH093_a1-01.jpg');
+}
+.core-bg-d{
+    background: url('../img/Banner/Desktop/WaterPurifier/Core/CWH094_a1.jpg');
+}
+.core-bg-e{
+    background: url('../img/Banner/Desktop/WaterPurifier/Core/CWH095_a1.jpg');
+}
+.core-bg-f{
+    background: url('../img/Banner/Desktop/WaterPurifier/Core/CWH096_a1.jpg');
+}
+.core-bg-g{
+    background: url('../img/Banner/Desktop/WaterPurifier/Core/CWH097_a1-01.jpg');
+}
+.core-bg-h{
+    background: url('../img/Banner/Desktop/WaterPurifier/Core/CWH098_a1.jpg');
+}
+
+.core-bg-i{
+    background: rgb(236, 236, 236);
+    height: 100vh !important;
+}
+
+.core-bg-j{
+    background: rgb(31, 30, 30);
+    height: 100vh !important;
+}
+
+.background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh !important;
+}
+
+/*section a*/
+.three-grid{
+    display: grid;
+    grid-template-rows: 5rem 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2rem;
+
+}
+
+.three-grid img{
+    width: 60px;
+    height: 60px;
+}
+
+.core-a-icon1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.core-a-icon2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.core-a-icon3{
+    grid-row: 1/2;
+    grid-column: 3/-1;
+}
+
+.core-para {
+    font-size: 1.5rem !important;
+}
+
+.core-h1-d, .core-para-d{
+    color: white !important;
+}
+
+.core-img{
+    height: 70% !important;
+    width: 60% !important;
+}
+
+.core-f-para {
+    font-size: 20px !important;
+    margin-bottom: 5% !important;
+}
+
+
+/*specs icon */
+.icon-filter::before {
+    content: url("../icons/Specs_Icons/filter.svg");
+}
+
+.icon-consumption::before {
+    content: url("../icons/Specs_Icons/power_consumption.svg");
+}
+
+.icon-weight::before {
+    content: url("../icons/Specs_Icons/net_weight.svg");
+}
+
+.icon-dimension::before {
+    content: url("../icons/Specs_Icons/dimension.svg");
+}
+
+.icon-capacity::before {
+    content: url("../icons/Specs_Icons/tank_capacity.svg");
+}
+

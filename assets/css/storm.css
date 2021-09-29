@@ -1,0 +1,186 @@
+/* for mobile devices */
+@media (min-width: 0px) { 
+    .storm-bg-a {
+        background: url('../img/Banner/Mobile/AirPurifier/Storm/CWHA037_a2.jpg');
+    }
+    
+    .storm-bg-b {
+        background: url('../img/Banner/Mobile/AirPurifier/Storm/CWHA039_a2.jpg');
+        
+    }
+    
+    .storm-bg-c {
+        background: url('../img/Banner/Mobile/AirPurifier/Storm/CWHA040_a2.jpg');
+        
+    }
+    
+    .storm-bg-d {
+        background: url('../img/Banner/Mobile/AirPurifier/Storm/CWHA041_a2.jpg');
+        
+    }
+    
+    .storm-bg-e {
+        background: url('../img/Banner/Mobile/AirPurifier/Storm/CWHA042_a2.jpg');
+        
+    }
+    
+    .storm-bg-f {
+        background: url('../img/Banner/Mobile/AirPurifier/Storm/CWHA043_a2.jpg');
+        
+    }
+    
+    .storm-bg-g {
+        background: url('../img/Banner/Mobile/AirPurifier/Storm/CWHA044_a2.jpg');
+        
+    }
+    
+    .storm-bg-h {
+        background: url('../img/Banner/Mobile/AirPurifier/Storm/CWHA045_a2.jpg');
+        
+    }
+    
+    .storm-bg-i {
+        background: url('../img/Banner/Mobile/AirPurifier/Storm/CWHA045_a2.jpg');
+        
+    }
+    
+    .storm-bg-j {
+        background: url('../img/Banner/Mobile/AirPurifier/Storm/CWHA045_a2.jpg');
+    }
+    .storm-bg-k {
+        background: #281d1d;
+        
+    }
+}
+
+/* for desktop devices */
+@media (min-width: 1025px) {
+    .storm-bg-a {
+        background: url('../img/Banner/Desktop/AirPurifier/Storm/CWHA037_a1.jpg');
+    }
+    
+    .storm-bg-b {
+        background: url('../img/Banner/Desktop/AirPurifier/Storm/CWHA039_a1.jpg');
+        
+    }
+    
+    .storm-bg-c {
+        background: url('../img/Banner/Desktop/AirPurifier/Storm/CWHA040_a1.jpg');
+        
+    }
+    
+    .storm-bg-d {
+        background: url('../img/Banner/Desktop/AirPurifier/Storm/CWHA041_a1.jpg');
+        
+    }
+    
+    .storm-bg-e {
+        background: url('../img/Banner/Desktop/AirPurifier/Storm/CWHA042_a1.jpg');
+        
+    }
+    
+    .storm-bg-f {
+        background: url('../img/Banner/Desktop/AirPurifier/Storm/CWHA043_a1.jpg');
+        
+    }
+    
+    .storm-bg-g {
+        background: url('../img/Banner/Desktop/AirPurifier/Storm/CWHA044_a1.jpg');
+        
+    }
+    
+    .storm-bg-h {
+        background: url('../img/Banner/Desktop/AirPurifier/Storm/CWHA045_a1.jpg');
+        
+    }
+    
+    .storm-bg-i {
+        background: url('../img/Banner/Desktop/AirPurifier/Storm/CWHA045_a1.jpg');
+        
+    }
+    
+    .storm-bg-j {
+        background: url('../img/Banner/Desktop/AirPurifier/Storm/CWHA045_a1.jpg');
+    }
+    .storm-bg-k {
+        background: #281d1d;
+        
+    }
+}
+
+
+.storm-bg-l {
+    background: url('../img/svg/home_background-08.png');
+    
+}
+.ht-light{
+    width: 75% !important;
+}
+.storm-container-b, .storm-container-c, .storm-container-d {
+    padding: 0% 0% 0% 0% !important;
+}
+
+.storm-b-para {
+    font-size: 20px !important;
+}
+
+.storm-c-para, .storm-e-para, .storm-f-para {
+    font-size: 20px !important;
+    margin-bottom: 5% !important;
+}
+
+.storm-span,.storm-h4 {
+    color: black !important;
+}
+.storm-h1-d,.storm-para-d {
+    color: black !important;
+}
+
+.bg-image{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lombok-card{
+    height: 250px !important;
+    width: 100% !important;
+}
+
+.bg-img-k{
+    background-color: #EAEAEA;
+    height: 250px;
+
+}
+.white-text{
+    color: white !important;
+}
+.content-k{
+    padding: 5%;
+    margin: 5%;
+}
+
+.storm-card{
+    height: 100% !important;
+    width: 100% !important;
+    padding: 18% 18% 18% 18% !important;
+}
+
+/* .card-text{
+    color: #808080;
+    font-size: medium;
+    padding: 5% 2.5% 5% 2.5%;
+} */
+
+.card-title{
+    font-size: x-large;
+    font-weight: 700;
+    padding: 5% 2.5% 0 2.5%;
+    margin-bottom: 0;
+}
+
+.storm-specs{
+    height: 30% !important;
+    width: 100% !important;
+}
+
+

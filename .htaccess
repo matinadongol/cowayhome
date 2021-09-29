@@ -1,0 +1,6 @@
+Options -Indexes
+
+Options +MultiViews
+
+#ErrorDocument 404 http://localhost/backoffice/404
+#ErrorDocument 404 http://hamrobazar.loc

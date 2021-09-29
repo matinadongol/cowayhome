@@ -1,0 +1,163 @@
+img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.promotion{
+  margin-top: 65px;
+  background-color: #F4F4F4;
+}
+
+.promotion .bannerimg1 img{
+  height: calc(100vh - 65px);
+  object-fit: cover;
+}
+
+.promotion .bannerimg1{
+  position: relative
+}
+
+.promotion .bannerimg1 .inner-div .inner-details{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.promotion .bannerimg1 .inner-div .inner-details h2{
+  font-weight: 700!important;
+  font-size: 38px!important;
+}
+
+.promotion .bannerimg1 .inner-div .inner-details h3{
+  font-weight: 500!important;
+  margin-top: 25px!important;
+  font-size: 1.5rem!important;
+}
+
+.promotion .product1, .promotion .product2, .promotion .product3, .promotion .product4, .promotion .product5{
+  padding: 50px 100px;
+}
+
+.promotion .product1 img, .promotion .product2 img, .promotion .product3 img, .promotion .product4 img, .promotion .product5 img{
+  border-radius: 10px;
+}
+
+.promotion .product1 h3, .promotion .product2 h3, .promotion .product3 h3, .promotion .product4 h3, .promotion .product5 h3{
+  font-weight: 700!important;
+  font-size: 28px!important;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.promotion .row ul{
+  list-style: disc;
+  margin-left: 40px;
+  color: #888;
+  font-size: 20px;
+}
+
+.promotion ul li{
+  text-align: justify;
+}
+
+.promotion ul span{
+  color: #000;
+  font-weight: 500;
+}
+
+.promotion button.product-btn{
+  color: #fff;
+  font-weight: 700;
+  background-color: #1CA5DB;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 10px 150px;
+  margin: 30px 0 0 10px;
+}
+
+.promotion .pagination{
+  padding: 20px 0 40px;
+}
+
+.promotion .pagination li.active>a{
+  background-color: #1CA5DB!important;
+}
+
+.promotion .pagination .pag_prev, .promotion .pagination .pag_next{
+  color: #000;
+}
+
+.promotion .pagination .pag_prev a, .promotion .pagination .pag_next a{
+  display: none;
+}
+
+.promotion .pagination .pag_prev::after, .promotion .pagination .pag_next::after {
+    font-family: var(--icon-font-family);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.promotion .pagination .pag_prev::after {
+    content: " \f104 ";
+}
+
+.promotion .pagination .pag_next::after {
+    content: " \f105 ";
+}
+
+
+/*Responsive*/
+
+@media screen and (max-width: 1200px) {
+  .promotion img.img-website{display: none}
+  .promotion img.img-mobile{display: block!important;object-position: 0 100%}
+  .promotion .bannerimg1 .inner-div .inner-details {top: 20%}
+  .promotion .bannerimg1 .inner-div .inner-details{width: 80%}
+
+  .promotion .product1 h3, .promotion .product2 h3, .promotion .product3 h3, .promotion .product4 h3, .promotion .product5 h3{
+    font-size: 24px!important;margin-bottom: 15px;}
+
+  .promotion .row ul{margin-left: 30px;font-size: 18px}
+  .promotion button.product-btn{padding: 10px 20px;width: 85%;}
+}
+
+@media screen and (max-width: 991px) {
+  .promotion .col-lg-6{padding: 20px 0}
+}
+
+@media screen and (max-width: 880px) {
+  .promotion .bannerimg1 .inner-div .inner-details h2{font-size: 30px!important}
+  .promotion .bannerimg1 .inner-div .inner-details {top: 30%}
+  .promotion .product1, .promotion .product2, .promotion .product3, .promotion .product4, .promotion .product5 {padding: 30px}
+  .promotion .product1 img, .promotion .product2 img, .promotion .product3 img, .promotion .product4 img, .promotion .product5 img {
+    height: auto!important}
+
+  .promotion .row .col-lg-6{background-color: #fff;padding: 0px}
+  .promotion .product1 h3, .promotion .product2 h3, .promotion .product3 h3, .promotion .product4 h3, .promotion .product5 h3 {
+    text-align: center;font-size: 20px!important;padding: 20px 20px 0;margin-bottom: 0px}
+
+  .promotion .product1 .details, .promotion .product2 .details, .promotion .product3 .details, .promotion .product4 .details, 
+  .promotion .product5 .details {padding: 20px}
+  .promotion .desc{display: none}
+  .promotion button.product-btn{width: calc(100% - 70px);padding: 15px 0px}
+
+  .promotion button.more_btn{display: inline-block!important;font-size: 20px;font-weight: 700;color: #1CA5DB;border: 2px solid #1CA5DB;
+    text-transform: uppercase;width: 60px;padding: 9px 0px;margin-left: auto!important}
+
+  .promotion button.product-btn, .promotion button.more_btn{margin: 10px 0 0 0;border-radius: 10px}
+  .promotion .details{display: flex;flex-wrap: wrap;margin-left: 0px;margin-right: 0px}
+  .promotion .details ul{order: 2;margin-top: 20px}
+}
+
+@media screen and (max-width: 768px) {
+  .promotion .bannerimg1 img{object-position: 50% 50%}
+}
+
+
+@media screen and (max-width: 576px) {
+  .promotion .bannerimg1 .inner-div .inner-details {top: 35%}
+  .promotion .row ul {font-size: 16px}
+  .promotion .row ul {margin-left: 20px}
+}

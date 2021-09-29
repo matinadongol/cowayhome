@@ -1,0 +1,37 @@
+<script src="../editor/ckeditor/ckeditor.js"></script>
+<textarea cols="80" id="editor1" name="editor1" rows="10">
+&lt;p&gt;This is some &lt;strong&gt;sample text&lt;/strong&gt;. You are using &lt;a href="http://ckeditor.com/"&gt;CKEditor&lt;/a&gt;.&lt;/p&gt;
+</textarea>
+		<script>
+			CKEDITOR.replace( 'editor1', {
+
+	filebrowserBrowseUrl : 'editor/ckfinder/ckfinder.html',
+	filebrowserImageBrowseUrl : 'editor/ckfinder/ckfinder.html?type=Images',
+	filebrowserFlashBrowseUrl : 'editor/ckfinder/ckfinder.html?type=Flash',
+	filebrowserUploadUrl : 'editor/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',
+	filebrowserImageUploadUrl : 'editor/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+	filebrowserFlashUploadUrl : 'editor/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash',
+	filebrowserWindowWidth : '800',
+ 	filebrowserWindowHeight : '500',
+
+	
+				toolbar: [
+					['Source'],
+					['Maximize'],
+					['Bold','Italic','Underline','Strike','-','Subscript','Superscript'],
+					['NumberedList','BulletedList','-','Outdent','Indent'],
+					['JustifyLeft','JustifyCenter','JustifyRight','JustifyFull'],
+					['SpecialChar'],
+					'/',
+					['Undo','Redo'],
+					['Font','FontSize'],
+					['TextColor','BGColor'],
+					['Link','Unlink','Anchor'],
+					['Image','Table','HorizontalRule'],
+					[ 'Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-', 'Link', 'Unlink' ],
+					[ 'FontSize', 'TextColor', 'BGColor' ]
+				]	
+
+			});
+
+		</script>

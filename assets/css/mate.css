@@ -1,0 +1,88 @@
+/*background*/
+.mate-bg-a{
+    background: url('../img/Banner/Desktop/WaterPurifier/Mate/CWM001_g1.jpg');
+}
+
+.mate-bg-b{
+    background: url('../img/Banner/Desktop/WaterPurifier/Mate/CWM003_c_1.jpg');
+}
+.mate-bg-c{
+    background: url('../img/Banner/Desktop/WaterPurifier/Mate/CWM004_c1_1.jpg');
+}
+.mate-bg-d{
+    background: url('../img/Banner/Desktop/WaterPurifier/Mate/CWM007_d1_1.jpg');
+}
+.mate-bg-e{
+    background: url('../img/Banner/Desktop/WaterPurifier/Mate/CWM005_d1_1.jpg');
+}
+.mate-bg-f{
+    background: url('../img/Banner/Desktop/WaterPurifier/Mate/CWM006_c1_1.jpg');
+}
+.mate-bg-g{
+    background: url('../img/Banner/Desktop/WaterPurifier/Mate/CWM008_a1_1.jpg');
+}
+
+.background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh !important;
+}
+
+.core-bg-h{
+    background: rgb(31, 30, 30);
+    height: 100vh !important;
+}
+
+.white-text{
+    color: white !important;
+}
+
+.mate-desc-a{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    
+}
+
+/*section a*/
+.one-grid{
+    display: grid;
+    grid-template-rows: 5rem 3rem;
+    margin-top: 2rem;
+}
+
+.one-grid img{
+    width: 60px;
+    height: 60px;
+}
+
+.mate-a-icon{
+    grid-row: 1/2;
+}
+
+/*card*/
+.card-slide{
+    height: 45rem;
+}
+
+/*specs icons*/
+.icon-filter::before {
+    content: url("../icons/Specs_Icons/filter.svg");
+}
+
+.icon-consumption::before {
+    content: url("../icons/Specs_Icons/power_consumption.svg");
+}
+
+.icon-weight::before {
+    content: url("../icons/Specs_Icons/net_weight.svg");
+}
+
+.icon-dimension::before {
+    content: url("../icons/Specs_Icons/dimension.svg");
+}
+
+.icon-capacity::before {
+    content: url("../icons/Specs_Icons/tank_capacity.svg");
+}

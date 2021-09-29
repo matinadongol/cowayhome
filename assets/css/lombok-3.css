@@ -1,0 +1,179 @@
+/* for mobile devices */
+@media (min-width: 0px) { 
+    .lombok-bg-a {
+        background: url('../img/Banner/Mobile/AirPurifier/Lombok3/CWHA001_a2.jpg');
+    }
+    
+    .lombok-bg-b {
+        background: url('../img/Banner/Mobile/AirPurifier/Lombok3/CWHA003_b2.jpg');
+        
+    }
+    
+    .lombok-bg-c {
+        background: url('../img/Banner/Mobile/AirPurifier/Lombok3/CWHA004_a2.jpg');
+        
+    }
+    
+    .lombok-bg-d {
+        background: url('../img/Banner/Mobile/AirPurifier/Lombok3/CWHA005_a2.jpg');
+        
+    }
+    
+    .lombok-bg-e {
+        background: url('../img/Banner/Mobile/AirPurifier/Lombok3/CWHA006_a2.jpg');
+        
+    }
+    
+    .lombok-bg-f {
+        background: url('../img/Banner/Mobile/AirPurifier/Lombok3/CWHA007_a2.jpg');
+        
+    }
+    
+    .lombok-bg-g {
+        background: url('../img/Banner/Mobile/AirPurifier/Lombok3/CWHA008_a2.jpg');
+        
+    }
+    
+    .lombok-bg-h {
+        background: url('../img/Banner/Mobile/AirPurifier/Lombok3/CWHA009_a2.jpg');
+        
+    }
+    
+    .lombok-bg-i {
+        background: url('../img/Banner/Mobile/AirPurifier/Lombok3/CWHA010_a2-01.jpg');
+        
+    }
+    
+    .lombok-bg-j {
+        background: url('../img/Banner/Mobile/AirPurifier/Lombok3/CWHA0011_a2.jpg');
+        
+    }
+    .lombok-bg-k {
+        background: #281d1d;
+        
+    }
+}
+
+/* for desktop devices */
+@media (min-width: 1025px) {
+    .lombok-bg-a {
+        background: url('../img/Banner/Desktop/AirPurifier/Lombok3/CWHA001_a1.jpg');
+    }
+    
+    .lombok-bg-b {
+        background: url('../img/Banner/Desktop/AirPurifier/Lombok3/CWHA003_b1.jpg');
+        
+    }
+    
+    .lombok-bg-c {
+        background: url('../img/Banner/Desktop/AirPurifier/Lombok3/CWHA004_a1.jpg');
+        
+    }
+    
+    .lombok-bg-d {
+        background: url('../img/Banner/Desktop/AirPurifier/Lombok3/CWHA005_a1.jpg');
+        
+    }
+    
+    .lombok-bg-e {
+        background: url('../img/Banner/Desktop/AirPurifier/Lombok3/CWHA006_a1.jpg');
+        
+    }
+    
+    .lombok-bg-f {
+        background: url('../img/Banner/Desktop/AirPurifier/Lombok3/CWHA007_a1.jpg');
+        
+    }
+    
+    .lombok-bg-g {
+        background: url('../img/Banner/Desktop/AirPurifier/Lombok3/CWHA008_a1.jpg');
+        
+    }
+    
+    .lombok-bg-h {
+        background: url('../img/Banner/Desktop/AirPurifier/Lombok3/CWHA009_a1.jpg');
+        
+    }
+    
+    .lombok-bg-i {
+        background: url('../img/Banner/Desktop/AirPurifier/Lombok3/CWHA010_a1-01.jpg');
+        
+    }
+    
+    .lombok-bg-j {
+        background: url('../img/Banner/Desktop/AirPurifier/Lombok3/CWHA011_a1.jpg');
+        
+    }
+    .lombok-bg-k {
+        background: #281d1d;
+        
+    }
+}
+
+
+
+/* .lombok-bg-l {
+    background: url('../img/svg/home_background-08.png');
+    
+} */
+.ht-light{
+    width: 75% !important;
+}
+.lombok-container-b, .lombok-container-c, .lombok-container-d {
+    padding: 0% 0% 0% 0% !important;
+}
+
+.lombok-b-para {
+    font-size: 20px !important;
+}
+
+.lombok-c-para, .lombok-e-para, .lombok-f-para {
+    font-size: 20px !important;
+    margin-bottom: 5% !important;
+}
+
+.lombok-h1-d, .lombok-para-d,.lombok-span,.lombok-h4 {
+    color: white !important;
+}
+.bg-image{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-img-k{
+    background-color: #EAEAEA;
+    height: 250px;
+
+}
+.white-text{
+    color: white !important;
+}
+.content-k{
+    padding: 5%;
+    margin: 5%;
+}
+
+.lombok-card{
+    height: 250px !important;
+    width: 100% !important;
+}
+
+/* .card-text{
+    color: #808080;
+    font-size: medium;
+    padding: 5% 2.5% 5% 2.5%;
+} */
+
+.card-title{
+    font-size: x-large;
+    font-weight: 700;
+    padding: 5% 2.5% 0 2.5%;
+    margin-bottom: 0;
+}
+
+.lombok-specs{
+    height: 30% !important;
+    width: 100% !important;
+}
+
+

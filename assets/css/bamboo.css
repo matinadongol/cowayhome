@@ -1,0 +1,58 @@
+/*background*/
+.bamboo-bg-a{
+    background: url('../img/Banner/Desktop/WaterPurifier/Bamboo/CWHC001_a1.jpg');
+    height: 100vh !important;
+    margin-top: 4rem;
+}
+.bamboo-bg-b{
+    background: url('../img/Banner/Desktop/WaterPurifier/Bamboo/CWHC002_a1.jpg');
+    height: 100vh !important;
+}
+.bamboo-bg-c{
+    background: url('../img/Banner/Desktop/WaterPurifier/Bamboo/CWHC003_a1.jpg');
+    height: 100vh !important;
+}
+.bamboo-bg-d{
+    background: url('../img/Banner/Desktop/WaterPurifier/Bamboo/CWHC004_a1.jpg');
+    height: 100vh !important;
+}
+.bamboo-bg-e{
+    background: url('../img/Banner/Desktop/WaterPurifier/Bamboo/CWHC005_a1.jpg');
+    height: 100vh !important;
+}
+.bamboo-bg-f{
+    background: rgb(31, 30, 30);
+    height: 100vh !important;
+}
+
+.background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh !important;
+}
+
+/*specs icons*/
+.icon-filter::before {
+    content: url("../icons/Specs_Icons/filter.svg");
+}
+
+.icon-housing::before {
+    content: url("../img/svg/specification/housing_shell.svg");
+}
+
+.icon-temperature::before {
+    content: url("../icons/Specs_Icons/operating_temperature.svg");
+}
+
+.icon-weight::before {
+    content: url("../icons/Specs_Icons/net_weight.svg");
+}
+
+.icon-dimension::before {
+    content: url("../icons/Specs_Icons/dimension.svg");
+}
+
+.icon-capacity::before {
+    content: url("../icons/Specs_Icons/tank_capacity.svg");
+}

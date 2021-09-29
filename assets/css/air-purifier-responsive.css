@@ -1,0 +1,544 @@
+/*Additional css*/
+.bg-a .hide-responsive{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.bg-a .hide-responsive .container-a{
+    padding: 0px!important;
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/*Additional css*/
+.breeze-img-k,.lombok-img-k,.tuba-img-k,.storm-img-k{
+    height: 80%  !important;
+    width: 80%  !important;
+}
+
+
+/*air putifier desktop carousel*/
+#air-purifier-desktop-carousel{
+    display: block;
+}
+
+#air-purifier-specs-owl-carousel{
+    display: none;
+}
+
+.air-purifier-desktop-carousel{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2%;
+}
+
+.air-purifier-desktop-carousel-a{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin: 30px;
+}
+
+.air-purifier-desktop-carousel-b{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin: 30px;
+}
+
+.air-purifier-desktop-carousel-c{
+    grid-row: 1/2;
+    grid-column: 3/-1;
+    margin: 30px;
+}
+
+.air-purifier-desktop-carousel-d{
+    grid-row: 2/-1;
+    grid-column: 1/2;
+    margin: 30px;
+}
+
+.air-purifier-desktop-carousel-e{
+    grid-row: 2/-1;
+    grid-column: 2/3;
+    margin: 30px;
+}
+
+.air-purifier-desktop-carousel-f{
+    grid-row: 2/-1;
+    grid-column: 3/-1;
+    margin: 30px;
+}
+
+#air-purifier-specs-owl-carousel .card{
+    height: 400px;
+}
+
+#air-purifier-specs-owl-carousel .card .card-text{
+    padding: 5%;
+}
+
+
+
+@media (min-width: 280px) {
+    .bg-a,.bg-b,.bg-c,.bg-d,.bg-e,.bg-f,.bg-g,.bg-h,.bg-i,.bg-j,.bg-l{
+        height: 60vh;
+        width: 100%;
+    }
+    .bg-k{
+        height: auto;
+        width: auto;
+    }
+    .bg-responsive{
+        background-size: cover !important;
+    }
+    .show-responsive{
+        display: block !important;
+    }
+    .hide-responsive{
+        display: none !important;
+    }
+    .container-a,.container-b{
+        padding: 10% !important  
+    }
+    .row{
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+        margin-right: 0px !important;
+        /* margin-left: -15px !important; */
+    }
+    .contact-panel a.svg-contact{
+        height: 50px !important;
+        width: 50px !important;
+        font-size: 8px;
+    }
+    .col-footer{
+        flex: 0 0 50%;
+        /* max-width: 50%; */
+    }
+    .font-xs-11{
+        font-size: 11px !important;
+    }
+    .inquery-link {
+        margin: 8px 8px 8px 8px !important;
+    }
+    .col-wp{
+        padding-right: 0px !important;
+        padding-top: 5%;
+
+    }
+    #site-footer{
+        width: 280px !important;
+    }
+    .res-slider-col{
+        padding-left: 10%;
+    }
+    .p-price{
+        padding-left: 2.5rem!important;
+    }
+    .imgbox{
+        height: auto !important;
+    }
+    .item-info{
+        font-size: 10px !important;
+    }
+    .pr-3, .px-3 {
+        padding-right: 0rem!important;
+    }
+    .fab{
+        font-size: medium !important;
+        padding-top: 5px !important
+    }
+    .companylogo {
+        height:20px;
+        width:20px;
+        padding: 0px 0px;
+        margin: 5px 5px 5px 5px;
+    }
+    .specs-header{
+        background-color: white;
+        color: black
+    }
+}
+@media (min-width: 320px) {
+    .bg-a,.bg-b,.bg-c,.bg-d,.bg-e,.bg-f,.bg-g,.bg-h,.bg-i,.bg-j,.bg-l{
+        height: 60vh;
+        width: 100%;
+    }
+    .bg-k{
+        height: auto;
+        width: auto;
+    }
+    .bg-responsive{
+        background-size: cover !important;
+    }
+    .show-responsive{
+        display: block !important;
+    }
+    .hide-responsive{
+        display: none !important;
+    }
+    .container-a,.container-b{
+        padding: 10% !important  
+    }
+    .row{
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+        margin-right: 0px !important;
+        /* margin-left: -15px !important; */
+    }
+    .contact-panel a.svg-contact{
+        height: 80px !important;
+        width: 80px !important;
+    }
+    .inquery-link {
+        margin: 8px 8px 8px 8px !important;
+    }
+    .col-wp{
+        padding-right: 0px !important;
+        padding-top: 5%;
+
+    }
+    #site-footer{
+        width: 325px !important;
+    }
+    .res-slider-col{
+        padding-left: 7%;
+    }
+    .p-price{
+        padding-left: 2.5rem!important;
+    }
+    .imgbox{
+        height: auto !important;
+    }
+    .item-info{
+        font-size: 12px !important;
+    }
+    .pr-3, .px-3 {
+        padding-right: 0rem!important;
+    }
+    .fab{
+        font-size: x-large !important;
+        padding-top: 5px !important
+    }
+    .companylogo {
+        height:30px;
+        width:30px;
+        padding: 0px 0px;
+        margin: 5px;
+    }
+    .item-block h2{
+        font-size: 16px !important;
+    }
+    .item-block span{
+        font-size: 16px !important;
+    }
+    .item-block .d-inline-block{
+        font-size: 14px !important;
+    }
+    .specs-header{
+        background-color: white;
+        color: black
+    }
+}
+@media (min-width: 360px) {
+    .bg-a,.bg-b,.bg-c,.bg-d,.bg-e,.bg-f,.bg-g,.bg-h,.bg-i,.bg-j,.bg-l{
+        height: 60vh;
+        width: 100%;
+    }
+    #site-footer{
+        width: auto !important;
+    }
+    .bg-k{
+        height: auto;
+        width: auto;
+    }
+    .bg-responsive{
+        background-size: cover !important;
+    }
+    .show-responsive{
+        display: block !important;
+    }
+    .hide-responsive{
+        display: none !important;
+    }
+    .container-a,.container-b{
+        padding: 10% !important  
+    }
+    .row{
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+        margin-right: 0px !important;
+        /* margin-left: -15px !important; */
+    }
+    .contact-panel a.svg-contact{
+        height: 90px !important;
+        width: 90px !important;
+    }
+    .col-wp{
+        padding-right: 0px !important;
+        padding-top: 5%;
+    }
+    .res-slider-col{
+        padding-left: 7%;
+    }
+    .p-price{
+        padding-left: 2.5rem!important;
+    }
+    .imgbox{
+        height: auto !important;
+    }
+    .item-info{
+        font-size: 15px !important;
+    }
+    .fab{
+        font-size: xx-large;
+    }
+    .item-block h2{
+        font-size: 16px !important;
+    }
+    .item-block span{
+        font-size: 16px !important;
+    }
+    .item-block .d-inline-block{
+        font-size: 14px !important;
+    }
+    .specs-header{
+        background-color: white;
+        color: black !important;
+    }
+}
+@media (max-width: 400px) {
+
+    /* #air-purifier-specs-owl-carousel .item{
+        margin: 2% !important;
+    } */
+    #air-purifier-specs-owl-carousel .card{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+}
+@media (min-width: 600px) {
+    .bg-a,.bg-b,.bg-c,.bg-d,.bg-e,.bg-f,.bg-g,.bg-h,.bg-i,.bg-j,.bg-l{
+        height: 60vh;
+        width: 100%;
+    }
+    .row {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+        margin-right: 0px !important;
+        margin-left: -15px !important;
+    }
+}
+@media (min-width: 801px) {
+}
+@media (max-width: 768px) {
+
+    .tuba-row-d .container-fluid > .row:first-child, .breeze-row-d .container-fluid > .row:first-child, 
+    .storm-row-d .container-fluid > .row:first-child,.lombok-row-d .container-fluid > .row:first-child{
+        background-color: #fff;
+        margin-top: 50px;
+    }
+
+    .tuba-row-d .container-fluid > .row:first-child h1, .tuba-row-d .container-fluid > .row:first-child p, 
+    .breeze-row-d .container-fluid > .row:first-child h1, .breeze-row-d .container-fluid > .row:first-child p, 
+    .storm-row-d .container-fluid > .row:first-child h1, .storm-row-d .container-fluid > .row:first-child p, 
+    .lombok-row-d .container-fluid > .row:first-child h1, .lombok-row-d .container-fluid > .row:first-child p{
+        color: #000!important;
+    }
+
+    .tuba-row-d .container-fluid > .row:first-child p, .breeze-row-d .container-fluid > .row:first-child p, 
+    .storm-row-d .container-fluid > .row:first-child p, .lombok-row-d .container-fluid > .row:first-child p{
+        padding-top: 10px;
+        margin-bottom: 50px!important;
+    }
+    
+    .breeze-img-k,.lombok-img-k,.tuba-img-k,.storm-img-k {
+        height: auto !important;
+    }
+
+    
+    
+}
+#air-purifier-specs-owl-carousel{
+    display: none;
+}
+
+@media (max-width: 799px) {
+    #air-purifier-specs-owl-carousel .card{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media (max-width: 1024px) {
+    #air-purifier-specs-owl-carousel{
+        display: block !important;
+    }
+    #air-purifier-desktop-carousel{
+        display: none !important;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .bg-a,.bg-b,.bg-c,.bg-d,.bg-e,.bg-f,.bg-g,.bg-h,.bg-i,.bg-j,.bg-l{
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .item-bgimg {
+        height: auto;
+    }
+    .companylogo {
+        height: 60px;
+        width: 60px;
+        padding: 0px 0px;
+        margin: 5px;
+    }
+    .col-footer{
+        flex: 0 0 50%;
+    }
+    .show-responsive{
+        display: none !important;
+    }
+    .hide-responsive{
+        display: block !important;
+    }
+    .row{
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+        margin-right: 0px !important;
+        margin-left: -10px !important;
+    }
+    .col-wp {
+        padding-right: 0px !important;
+        padding-top: 0%;
+    }
+    .col-tablet-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .item-info {
+        font-size: 24px !important;
+    }
+    .contact-panel a.svg-contact {
+        height: 80px !important;
+        width: 80px !important;
+        font-size: 12px;
+    }
+    .card-text{
+        color: #808080;
+        font-size: 15px;
+        padding: 5% 2.5% 5% 2.5%;
+    }
+    .spec-row{
+        width: 80%;
+        margin: auto;
+    }
+
+    
+}
+@media (min-width: 1281px) {
+    .bg-a,.bg-b,.bg-c,.bg-d,.bg-e,.bg-f,.bg-g,.bg-h,.bg-i,.bg-j,.bg-l{
+        height: 100vh;
+        width: 100%;
+    }
+    .bg-k{
+        height: auto;
+        width: auto;
+    }
+    .bg-responsive{
+        background-size: cover;
+    }
+    .show-responsive{
+        display: none !important;
+    }
+    .hide-responsive{
+        display: block !important;
+    }
+    .container-a {
+        padding: 10% 0% 0% 20% !important;
+        
+    }
+    .row{
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+        margin-right: -15px !important;
+        margin-left: -15px !important;
+    }
+    .col-wp{
+        padding-right: 15px !important;
+        padding-top: 0%;
+    }
+    .p-price{
+        padding-left: 0rem ;
+    }
+    #site-footer{
+        width: auto !important;
+    }
+    .fab{
+        font-size: xx-large;
+        margin: 5px 5px 5px 5px;
+    }
+    .companylogo {
+        width: 40px;
+        height: 40px;
+        padding: 0px 0px;
+        margin: 5px 5px 5px 5px;
+    }
+    .col-footer{
+        flex: 0 0 100% !important;
+    }
+    .col-tablet-12{
+        flex: 0 0 100%;
+        max-width: 50%;
+    }
+    .card-text{
+        color: #808080;
+        font-size: medium;
+        padding: 5% 2.5% 5% 2.5%;
+    }
+    .res-slider-col {
+        padding: 0% 2% 2%;
+    }
+    .spec-row{
+        width: auto;
+        margin: auto;
+    }
+    /* .pr-3, .px-3 {
+        padding-right: 0.188rem!important;
+        } */
+    }
+
+    .product_images{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .coway_certificate {
+        width: 100%;
+    }
+
+    .coway_certificate img{
+        width: 100%;
+    }

@@ -1,0 +1,246 @@
+.mattress-bg-a {
+    background: url('../img/Banner/Desktop/Mattress/CWH042_a1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh !important;
+}
+
+.mattress-bg-b {
+    background: url('../img/Banner/Desktop/Mattress/CWH044_b1_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh !important;
+}
+
+.mattress-bg-c {
+    background: url('../img/Banner/Desktop/Mattress/CWH045_b1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh !important;
+}
+
+.mattress-bg-d {
+    background: url('../img/Banner/Desktop/Mattress/CWH046_b1_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh !important;
+}
+
+.mattress-bg-e {
+    background: url('../img/Banner/Desktop/Mattress/CWH043_a1_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh !important;
+}
+
+.mattress-bg-f {
+    background: url('../img/Banner/Desktop/Mattress/CWH048_c1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh !important;
+}
+
+.mattress-bg-g {
+    background: url('../img/Banner/Desktop/Mattress/CWH049_a1_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh !important;
+}
+
+.mattress-bg-h {
+    background: url('../img/Banner/Desktop/Mattress/CWH050_d1_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh !important;
+}
+
+.mattress-bg-i {
+    background: url('../img/Banner/Desktop/Mattress/CWH043_a1_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh !important;
+}
+
+.mattress-bg-j {
+    background: url('../img/Banner/Desktop/Mattress/CWH011_a1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh !important;
+}
+.mattress-bg-k {
+    background: #281d1d;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 899px !important;
+}
+.mattress-bg-l {
+    background: url('../img/svg/home_background-08.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 899px !important;
+}
+.mattress_menu{
+    width: 150% !important;
+}
+.selectpicker-form{
+    margin-left: 7% !important;
+}
+.specify-list-mattress>div {
+    padding: 0px;
+    display: inline-block;
+    /* float: left; */
+    padding-right: 10px;
+}
+.specify-list-mattress {
+    padding: 15px 0px;
+    margin: 0px;
+}
+
+.h1-mattress{
+    color: #fafad2;
+    font-size: 34px;
+}
+
+.mattress-container-a {
+    padding: 10% 0% 0% 20% !important;
+}
+
+.mattress-container-b, .mattress-container-c, .mattress-container-d {
+    padding: 0% 0% 0% 0% !important;
+}
+
+.mattress-b-para {
+    font-size: 20px !important;
+}
+
+.mattress-b-para-b{
+    font-size: 15px !important;
+}
+
+.mattress-c-para, .mattress-e-para, .mattress-f-para {
+    font-size: 20px !important;
+    margin-bottom: 5% !important;
+}
+
+.bg-img-k{
+    background-color: #EAEAEA;
+
+}
+.white-text{
+    color: white !important;
+}
+.content-k{
+    padding: 5%;
+    margin: 5%;
+}
+
+.mattress-card{
+    height: 100% !important;
+    width: 100% !important;
+    padding: 18% 18% 18% 18% !important;
+}
+
+.card-text{
+    color: #808080;
+    font-size: medium;
+    padding: 5% 2.5% 5% 2.5%;
+}
+
+.card-title{
+    font-size: x-large;
+    font-weight: 700;
+    padding: 5% 2.5% 5% 2.5%;
+}
+
+.mattress-specs{
+    height: 30% !important;
+    width: 100% !important;
+}
+.mattress-img-k{
+    height: 80%  !important;
+    width: 80%  !important;
+    /* padding : 0% 0% 20% 0% !important; */
+}
+
+
+@media screen and (max-width: 1200px) {
+    .mattress-container-a {
+        padding: 0% !important;
+        position: absolute;
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .mattress-bg-k {height: auto !important}
+    .mattress-bg-k .row.no-gutters.d-flex , .mattress-bg-k .specify-price {padding: 0 50px 50px}
+
+    .item-bgimg, .imgbox {height: auto!important}
+    .item-info {font-size: 15px !important}
+    .lombok-row-j .lombok-container-e > .row{margin: 0px}
+    .lombok-row-j .lombok-container-e > .row > div{padding: 0px}
+
+
+
+}
+
+@media screen and (max-width: 991.98px) {
+    .mattress-bg-a{background-position: 26% 0}
+    .mattress-row-a .mattress-container-a, .mattress-row-b .mattress-container-b, .mattress-row-c .mattress-container-c, 
+    .mattress-row-d .mattress-container-d, .mattress-container-e{display: none}
+
+    .mattress-row-a .mattress-container-a1, .mattress-row-b .mattress-container-b1, .mattress-row-c .mattress-container-c1, 
+    .mattress-row-d .mattress-container-d1, .mattress-container-e1{display: block!important;padding: 0 20px!important}
+
+    .mattress-row-a .mattress-container-a1 h1, .mattress-row-a .mattress-container-a1 h2, .mattress-row-a .mattress-container-a1 h6{color: #000!important}
+    .mattress-row-a .mattress-container-a1 h2{font-size: 16px!important;font-weight: 500!important}
+
+    .mattress-row-b h1, .mattress-row-c h1, .mattress-row-d h1, .mattress-row-e h1, .mattress-row-f h1, .mattress-row-g h1, .mattress-row-h h1, 
+    .mattress-row-i h1{font-size: 22px!important}
+
+    .mattress-row-b p, .mattress-row-c p, .mattress-row-d p, .mattress-row-e p, .mattress-row-f p, .mattress-row-g p, .mattress-row-h p, 
+    .mattress-row-i p{font-size: 18px!important;padding-top: 20px!important;margin-bottom: 70px!important}
+
+    .mattress-row-b .mattress-b-para-b{font-size: 16px!important;margin-top: -50px}
+
+    .mob-box-shadow::before {height: 0px!important}
+}
+
+@media screen and (max-width: 768px){
+    .tab-pane .mattress-row-d .view.mattress-bg-k .specs-descrip{display: none!important}
+    .specs-responsive{display: block!important}
+    .selectpicker-form {margin-left: 0px!important}
+    .svg-frame {padding: 0 25px 0 0}
+}
+
+@media screen and (max-width: 576px){
+    .lombok-row-j .col-lg-3{padding: 0 10px!important}
+    .item-info {font-size: 12px !important}
+    .rcorners{padding: 0px}
+    .lombok-row-d .view.bg-m{margin: 20px 0}
+
+    .contact-panel a.svg-contact {
+        font-size: 12px;
+        height: 75px !important;
+        width: 75px !important;
+    }
+
+}
+
+
+@media (min-width: 991.98px){
+.tab-pane {display: block !important}
+}

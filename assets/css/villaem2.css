@@ -1,0 +1,135 @@
+/*background*/
+.villaem2-bg-a{
+    background: url('../img/Banner/Desktop/WaterPurifier/Villaem2/CWH031_b1.jpg');
+    height: 100vh !important;
+}
+.villaem2-bg-b{
+    background: url('../img/Banner/Desktop/WaterPurifier/Villaem2/CWH033_c1_2.jpg');
+    height: 100vh !important;
+}
+.villaem2-bg-c{
+    background: url('../img/Banner/Desktop/WaterPurifier/Villaem2/CWH034_b1.jpg');
+    height: 100vh !important;
+}
+.villaem2-bg-d{
+    background: url('../img/Banner/Desktop/WaterPurifier/Villaem2/CWH035_a1_1.jpg');
+    height: 100vh !important;
+}
+.villaem2-bg-e{
+    background: url('../img/Banner/Desktop/WaterPurifier/Villaem2/CWH036_a1.jpg');
+    height: 100vh !important;
+}
+.villaem2-bg-f{
+    background: url('../img/Banner/Desktop/WaterPurifier/Villaem2/CWH037_a1_1.jpg');
+    height: 100vh !important;
+}
+.villaem2-bg-g{
+    background: url('../img/Banner/Desktop/WaterPurifier/Villaem2/CWH038_a1.jpg');
+    height: 100vh !important;
+}
+.villaem2-bg-h{
+    background: url('../img/Banner/Desktop/WaterPurifier/Villaem2/CWH039_a1_3.jpg');
+    height: 100vh !important;
+}
+
+.villaem2-bg-i{
+    background: url('../img/Banner/Desktop/WaterPurifier/Villaem2/CWH040_a1_1.jpg');
+    height: 100vh !important;
+}
+
+.villaem2-bg-j{
+    background: rgb(236, 236, 236);
+    height: 100vh !important;
+}
+
+.villaem2-bg-k{
+    background: rgb(31, 30, 30);
+    height: 100vh !important;
+}
+
+.background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh !important;
+}
+
+/*section a*/
+
+.four-grid{
+    display: grid;
+    grid-template-rows: 5rem 3rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 2rem;
+}
+
+.four-grid img{
+    width: 60px;
+    height: 60px;
+}
+
+.villaem2-a-icon1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.villaem2-a-icon2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.villaem2-a-icon3{
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+.villaem2-a-icon4{
+    grid-row: 1/2;
+    grid-column: 4/-1;
+}
+
+.villaem2-a-name1{
+    grid-row: 2/-1;
+    grid-column: 1/2;
+}
+
+.villaem2-a-name2{
+    grid-row: 2/-1;
+    grid-column: 2/3;
+}
+
+.villaem2-a-name3{
+    grid-row: 2/-1;
+    grid-column: 3/4;
+}
+
+.villaem2-a-name4{
+    grid-row: 2/-1;
+    grid-column: 4/-1;
+}
+
+/*specs icons*/
+.icon-filter::before {
+    content: url("../icons/Specs_Icons/filter.svg");
+}
+
+.icon-consumption::before {
+    content: url("../icons/Specs_Icons/power_consumption.svg");
+}
+
+.icon-weight::before {
+    content: url("../icons/Specs_Icons/net_weight.svg");
+}
+
+.icon-dimension::before {
+    content: url("../icons/Specs_Icons/dimension.svg");
+}
+
+.icon-capacity::before {
+    content: url("../icons/Specs_Icons/tank_capacity.svg");
+}
+
+/*section i*/
+.card-slide{
+    height: 45rem;
+}

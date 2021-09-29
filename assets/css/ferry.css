@@ -1,0 +1,83 @@
+/*background*/
+.ferry-bg-a{
+    background: url('../img/Banner/Desktop/WaterPurifier/Ferry/CWH072_a1.jpg');
+}
+
+.ferry-bg-b{
+    background: url('../img/Banner/Desktop/WaterPurifier/Ferry/CWH074_a1.jpg');
+}
+.ferry-bg-c{
+    background: url('../img/Banner/Desktop/WaterPurifier/Ferry/CWH075_a1.jpg');
+}
+.ferry-bg-d{
+    background: url('../img/Banner/Desktop/WaterPurifier/Ferry/CWH076_a1.jpg');
+}
+.ferry-bg-e{
+    background: url('../img/Banner/Desktop/WaterPurifier/Ferry/CWH077_a1-01.jpg');
+}
+.ferry-bg-f{
+    background: url('../img/Banner/Desktop/WaterPurifier/Ferry/CWH078_a1_1.jpg');
+}
+
+.background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh !important;
+}
+
+
+.white-text{
+    color: white !important;
+}
+
+.ferry-desc-a{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    
+}
+
+/*first desc*/
+/*section a*/
+.one-grid{
+    display: grid;
+    grid-template-rows: 5rem 3rem;
+    margin-top: 2rem;
+}
+
+.one-grid img{
+    width: 60px;
+    height: 60px;
+}
+
+.ferry-a-icon{
+    grid-row: 1/2;
+}
+
+/*section g*/
+
+.card-slide{
+    height: 45rem;
+}
+
+/*specs icons*/
+.icon-filter::before {
+    content: url("../icons/Specs_Icons/filter.svg");
+}
+
+.icon-consumption::before {
+    content: url("../icons/Specs_Icons/power_consumption.svg");
+}
+
+.icon-weight::before {
+    content: url("../icons/Specs_Icons/net_weight.svg");
+}
+
+.icon-dimension::before {
+    content: url("../icons/Specs_Icons/dimension.svg");
+}
+
+.icon-capacity::before {
+    content: url("../icons/Specs_Icons/tank_capacity.svg");
+}
